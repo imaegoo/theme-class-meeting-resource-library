@@ -1,0 +1,114 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.menus {
+  background-color: #007bff;
+}
+.menus .container {
+  display: flex;
+  position: relative;
+  left: -10px;
+  align-items: center;
+}
+.menus .container .menu {
+  display: inline-block;
+  padding: 15px;
+  text-align: center;
+  color: #ffffff;
+}
+.menus .container .menu:hover,
+.menus .container .menu.active {
+  color: #007bff;
+  background-color: #ffffff;
+}
+.categories-head .container {
+  background: url("../img/bg-zzuli.jpg") no-repeat center center;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.categories-head .container .categories-title {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main {
+  padding-top: 20px;
+}
+.main .container {
+  display: flex;
+  justify-content: stretch;
+}
+.main .container .categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.hot-articles {
+  width: 100%;
+  margin-left: 1%;
+  max-width: 300px;
+}
+.category {
+  overflow: hidden;
+  width: 49%;
+  flex-basis: 49%;
+  min-width: 350px;
+  color: black;
+}
+.category-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #007bff;
+  margin-bottom: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+.category-title a {
+  margin-right: 1rem;
+  color: black;
+  font-size: 16px;
+}
+.news {
+  width: 100%;
+  padding: 2px 0;
+  font-size: 16px;
+  color: black;
+  display: flex;
+}
+.news span {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+  height: 24px;
+  line-height: 24px;
+  background-color: #e9ecef;
+  margin-right: 10px;
+}
+.news a {
+  display: inline-block;
+  width: 72%;
+  height: 24px;
+  line-height: 24px;
+  color: black;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

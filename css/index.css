@@ -13,7 +13,12 @@ h6 {
 }
 
 nav .navbar-brand {
-  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+nav .navbar-brand span {
+  margin-left: 10px;
 }
 
 header.masthead {
@@ -32,7 +37,7 @@ header.masthead .overlay {
   width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 header.masthead h1 {
