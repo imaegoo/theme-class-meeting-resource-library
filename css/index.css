@@ -77,6 +77,8 @@ header.masthead h1 {
 
 .features-icons .features-icons-item {
   max-width: 20rem;
+  color: #212529;
+  text-decoration: none;
 }
 
 .features-icons .features-icons-item .features-icons-icon {
